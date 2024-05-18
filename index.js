@@ -53,7 +53,7 @@ class Kitten4Decompiler {
             try {
                 onUpdate(0)
                 
-                // K4 专用链
+                // 跨域问题nmsl
                 let info = await Ajax.getJson("https://api-creation.codemao.cn/kitten/r2/work/player/load/" + work_id)
 
                 // 第一项就是最新出来的文件, 一般情况取最新就足够了(除非需要回档, 当然这个以后会做的)
